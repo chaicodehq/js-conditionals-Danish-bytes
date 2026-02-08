@@ -38,7 +38,7 @@ export function calculateTax(income) {
   //   return 2000 + 8000 + 0.3 * (income - 70000);
   // }
 
-  // Or other logic
+  // Or other way
   let totalTax = 0;
   if(income <= 0) return totalTax;
 
